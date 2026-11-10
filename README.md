@@ -1,5 +1,7 @@
 # When Does the Extrapolation Weakness of Gradient-Boosted Trees Matter?
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24110546.svg)](https://doi.org/10.5281/zenodo.24110546)
+
 Code and results for the paper
 
 > U. Y. Caskurlu, H. Bakir, M. Zontul, S. Karateke. *When Does the Extrapolation Weakness of Gradient-Boosted Trees Matter? A Precondition Analysis of Distribution Shift in Tabular Regression.* Submitted to *Mathematics* (MDPI), 2026.
@@ -70,7 +72,7 @@ OpenML-CTR23 (suite 353), puma8NH (OpenML 225), Ailerons (OpenML 296), bike shar
 
 ## Citation
 
-See `CITATION.cff`.
+See `CITATION.cff`. The code and results of version 1.0 are archived on Zenodo: https://doi.org/10.5281/zenodo.24110546.
 
 ## License
 

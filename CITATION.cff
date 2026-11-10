@@ -3,6 +3,9 @@ message: "If you use this code or these results, please cite the paper."
 title: "distribution-shift-tree-extrapolation"
 type: software
 license: MIT
+version: "1.0"
+doi: 10.5281/zenodo.24110546
+repository-code: "https://github.com/metinzontul/distribution-shift-tree-extrapolation"
 authors:
   - family-names: Caskurlu
     given-names: U. Yavuzhan
