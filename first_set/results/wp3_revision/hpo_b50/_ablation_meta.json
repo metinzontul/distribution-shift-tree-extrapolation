@@ -1,0 +1,20 @@
+{
+  "budget": 50,
+  "datasets": [
+    "diamonds",
+    "wave_energy",
+    "Moneyball",
+    "video_transcoding"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "tuner": "continuous_random_search",
+  "realmlp": "td_s",
+  "max_fit_train": 5000,
+  "max_rows": 20000,
+  "id_frac": 0.25,
+  "arm": "extrapolation"
+}

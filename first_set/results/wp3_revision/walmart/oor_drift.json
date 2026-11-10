@@ -1,0 +1,392 @@
+{
+  "dataset": "walmart",
+  "n_full": 6435,
+  "n_features": 49,
+  "n_train_period": 4504,
+  "n_test_period": 1931,
+  "train_frac": 0.7,
+  "val_frac": 0.15,
+  "target_relevant_feature": "Store_33",
+  "target_relevant_idx": 36,
+  "target_relevant_abs_spearman": 0.25269740753921477,
+  "target_feature_oor_fraction": 0.0,
+  "oor_fraction_summary": {
+    "max": 0.10564474365613671,
+    "mean": 0.004016106701613841,
+    "median": 0.0,
+    "n_features_oor_gt_0": 3,
+    "n_features_oor_gt_0.01": 3,
+    "argmax_feature": "CPI"
+  },
+  "psi_summary": {
+    "max": 5.196411723986706,
+    "mean": 0.20563524188177207,
+    "argmax_feature": "Fuel_Price",
+    "n_features_psi_gt_0.25": 3
+  },
+  "label_shift": {
+    "mean_train": 1053037.735812611,
+    "mean_test": 1032800.1165251165,
+    "var_train": 331713789084.8377,
+    "var_test": 287259895865.1181,
+    "mean_shift_in_sigma": -0.0351380502084778,
+    "var_ratio_test_over_train": 0.8659872013690988,
+    "ks_stat": 0.030241373569313612,
+    "ks_p": 0.16455479068401302
+  },
+  "concept_probe": {
+    "ridge_rmse_train": 174520.49348572173,
+    "ridge_rmse_test": 152902.3522111477,
+    "ridge_rmse_ratio_test_over_train": 0.876128351216571
+  },
+  "multivariate_oor": {
+    "maha_oor_fraction": 0.4158467115484205,
+    "maha_threshold": 64.8426853272969,
+    "maha_q": 99.0
+  },
+  "per_feature": [
+    {
+      "feature": "CPI",
+      "oor_fraction": 0.10564474365613671,
+      "train_min": 126.064,
+      "train_max": 223.2496766,
+      "psi": 4.270122704246169
+    },
+    {
+      "feature": "Unemployment",
+      "oor_fraction": 0.06007250129466598,
+      "train_min": 4.42,
+      "train_max": 14.313,
+      "psi": 0.5326836476584557
+    },
+    {
+      "feature": "Fuel_Price",
+      "oor_fraction": 0.031071983428275506,
+      "train_min": 2.472,
+      "train_max": 4.211,
+      "psi": 5.196411723986706
+    },
+    {
+      "feature": "Temperature",
+      "oor_fraction": 0.0,
+      "train_min": -2.06,
+      "train_max": 100.14,
+      "psi": 0.07690877631550123
+    },
+    {
+      "feature": "Holiday_Flag",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_2",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_3",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_4",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_5",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_6",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_7",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_8",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_9",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_10",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_11",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_12",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_13",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_14",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_15",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_16",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_17",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_18",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_19",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_20",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_21",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_22",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_23",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_24",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_25",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_26",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_27",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_28",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_29",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_30",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_31",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_32",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_33",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_34",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_35",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_36",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_37",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_38",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_39",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_40",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_41",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_42",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_43",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_44",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Store_45",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    }
+  ]
+}

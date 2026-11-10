@@ -1,0 +1,189 @@
+{
+  "dataset": "air_quality",
+  "n_full": 7718,
+  "n_features": 20,
+  "n_train_period": 5402,
+  "n_test_period": 2316,
+  "train_frac": 0.7,
+  "val_frac": 0.15,
+  "target_relevant_feature": "CO(GT)",
+  "target_relevant_idx": 0,
+  "target_relevant_abs_spearman": 0.8048428176199613,
+  "target_feature_oor_fraction": 0.0,
+  "oor_fraction_summary": {
+    "max": 0.5837651122625216,
+    "mean": 0.0325993091537133,
+    "median": 0.0004317789291882556,
+    "n_features_oor_gt_0": 10,
+    "n_features_oor_gt_0.01": 3,
+    "argmax_feature": "Month"
+  },
+  "psi_summary": {
+    "max": 9.233467508714408,
+    "mean": 1.1620395887429402,
+    "argmax_feature": "Month",
+    "n_features_psi_gt_0.25": 8
+  },
+  "label_shift": {
+    "mean_train": 213.71825249907442,
+    "mean_test": 324.28454231433506,
+    "var_train": 41594.03687158527,
+    "var_test": 45568.346928590174,
+    "mean_shift_in_sigma": 0.5421346932660999,
+    "var_ratio_test_over_train": 1.0955499960072386,
+    "ks_stat": 0.3138118422205298,
+    "ks_p": 1.1446003440551502e-141
+  },
+  "concept_probe": {
+    "ridge_rmse_train": 70.80803979331685,
+    "ridge_rmse_test": 129.1287204286672,
+    "ridge_rmse_ratio_test_over_train": 1.823644896901299
+  },
+  "multivariate_oor": {
+    "maha_oor_fraction": 0.45379965457685667,
+    "maha_threshold": 82.9467572136424,
+    "maha_q": 99.0
+  },
+  "per_feature": [
+    {
+      "feature": "Month",
+      "oor_fraction": 0.5837651122625216,
+      "train_min": 3.0,
+      "train_max": 12.0,
+      "psi": 9.233467508714408
+    },
+    {
+      "feature": "T_RH",
+      "oor_fraction": 0.023747841105354058,
+      "train_min": 84.89,
+      "train_max": 1747.3,
+      "psi": 2.5582718217152483
+    },
+    {
+      "feature": "T",
+      "oor_fraction": 0.01770293609671848,
+      "train_min": 1.3,
+      "train_max": 44.6,
+      "psi": 2.829643418986307
+    },
+    {
+      "feature": "PT08.S4(NO2)",
+      "oor_fraction": 0.009930915371329879,
+      "train_min": 682.0,
+      "train_max": 2775.0,
+      "psi": 1.7295016048615657
+    },
+    {
+      "feature": "NO2(GT)",
+      "oor_fraction": 0.006044905008635579,
+      "train_min": 2.0,
+      "train_max": 288.0,
+      "psi": 0.7570257652521586
+    },
+    {
+      "feature": "CO_NO2_ratio",
+      "oor_fraction": 0.0034542314335060447,
+      "train_min": 0.0009259173526171054,
+      "train_max": 0.5997001499250375,
+      "psi": 0.8903069679708349
+    },
+    {
+      "feature": "PT08.S5(O3)",
+      "oor_fraction": 0.0025906735751295338,
+      "train_min": 261.0,
+      "train_max": 2523.0,
+      "psi": 0.07361875533988584
+    },
+    {
+      "feature": "PT08.S2(NMHC)",
+      "oor_fraction": 0.002158894645941278,
+      "train_min": 397.0,
+      "train_max": 2214.0,
+      "psi": 0.13837139565431486
+    },
+    {
+      "feature": "AH",
+      "oor_fraction": 0.0017271157167530224,
+      "train_min": 0.1988,
+      "train_max": 2.1806,
+      "psi": 3.613572982512815
+    },
+    {
+      "feature": "C6H6(GT)",
+      "oor_fraction": 0.0008635578583765112,
+      "train_min": 0.2,
+      "train_max": 63.7,
+      "psi": 0.1391123124555042
+    },
+    {
+      "feature": "PT08.S3(NOx)",
+      "oor_fraction": 0.0,
+      "train_min": 322.0,
+      "train_max": 2683.0,
+      "psi": 0.1624148817236152
+    },
+    {
+      "feature": "CO(GT)",
+      "oor_fraction": 0.0,
+      "train_min": 0.1,
+      "train_max": 11.9,
+      "psi": 0.018961019890965578
+    },
+    {
+      "feature": "RH",
+      "oor_fraction": 0.0,
+      "train_min": 9.2,
+      "train_max": 88.7,
+      "psi": 0.1373485197652106
+    },
+    {
+      "feature": "Hour",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 23.0,
+      "psi": 0.0015166080595575308
+    },
+    {
+      "feature": "PT08.S1(CO)",
+      "oor_fraction": 0.0,
+      "train_min": 647.0,
+      "train_max": 2040.0,
+      "psi": 0.028947744835390997
+    },
+    {
+      "feature": "NMHC(GT)",
+      "oor_fraction": 0.0,
+      "train_min": 7.0,
+      "train_max": 1189.0,
+      "psi": 0.9233207769585435
+    },
+    {
+      "feature": "IsWeekend",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 1.0,
+      "psi": 0.0
+    },
+    {
+      "feature": "Weekday",
+      "oor_fraction": 0.0,
+      "train_min": 0.0,
+      "train_max": 6.0,
+      "psi": 0.003829775397484282
+    },
+    {
+      "feature": "Hour_sin",
+      "oor_fraction": 0.0,
+      "train_min": -1.0,
+      "train_max": 1.0,
+      "psi": 0.0007465769694548682
+    },
+    {
+      "feature": "Hour_cos",
+      "oor_fraction": 0.0,
+      "train_min": -1.0,
+      "train_max": 1.0,
+      "psi": 0.0008133377955416567
+    }
+  ]
+}

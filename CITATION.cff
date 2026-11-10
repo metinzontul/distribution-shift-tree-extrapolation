@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper."
+title: "distribution-shift-tree-extrapolation"
+type: software
+license: MIT
+authors:
+  - family-names: Caskurlu
+    given-names: U. Yavuzhan
+    affiliation: Sivas University of Science and Technology
+  - family-names: Bakir
+    given-names: Halit
+    affiliation: Sivas University of Science and Technology
+  - family-names: Zontul
+    given-names: Metin
+    affiliation: Sivas University of Science and Technology
+  - family-names: Karateke
+    given-names: Seda
+    affiliation: Istanbul Atlas University
+keywords:
+  - distribution shift
+  - extrapolation
+  - gradient boosting
+  - tabular regression
+preferred-citation:
+  type: article
+  title: "When Does the Extrapolation Weakness of Gradient-Boosted Trees Matter? A Precondition Analysis of Distribution Shift in Tabular Regression"
+  authors:
+    - family-names: Caskurlu
+      given-names: U. Yavuzhan
+    - family-names: Bakir
+      given-names: Halit
+    - family-names: Zontul
+      given-names: Metin
+    - family-names: Karateke
+      given-names: Seda
+  journal: "Mathematics"
+  year: 2026
+  notes: "Submitted"

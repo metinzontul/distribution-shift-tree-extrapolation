@@ -1,0 +1,9 @@
+dataset,severity,gap_b8,gap_b50,gap_b100,drop_b8_to_b100,max_nood,seedstd_b100,shrink_verdict,persist_verdict,note
+diamonds,30,1.224,-0.846,-0.339,1.563,15.5,3.052,"UNINTERPRETABLE (both families diverge, nOOD>>1)",n/a,
+diamonds,50,-0.16,0.339,0.449,-0.609,33.3,6.561,"UNINTERPRETABLE (both families diverge, nOOD>>1)",n/a,
+wave_energy,30,0.387,0.395,0.388,-0.001,0.5,0.012,no systematic shrink,persists>=noticeable,
+wave_energy,50,0.462,0.455,0.447,0.015,0.5,0.013,no systematic shrink,persists>=noticeable,
+Moneyball,30,0.159,0.215,0.43,-0.271,1.4,0.251,grows (no shrink),persists>=noticeable,moderate seed variance (std_b100=0.25); median robust
+Moneyball,50,-0.001,0.133,0.526,-0.527,2.7,0.421,grows (no shrink),persists>=noticeable,moderate seed variance (std_b100=0.42); median robust
+video_transcoding,30,-0.065,-0.07,-0.069,0.004,1.4,0.086,no systematic shrink,below MDE (near zero/negative),
+video_transcoding,50,-0.354,-0.034,-0.066,-0.288,4.9,1.21,"UNINTERPRETABLE (both families diverge, nOOD>>1)",n/a,

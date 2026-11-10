@@ -1,0 +1,20 @@
+{
+  "median_differential": 0.22191025919732005,
+  "mean_differential": 0.23611833504205865,
+  "per_seed": [
+    0.2219,
+    0.2133,
+    0.2541,
+    0.2816,
+    0.2098
+  ],
+  "direction_consistency": "5/5 positive",
+  "sign_test_p_two_sided": 0.0625,
+  "wilcoxon_stat": 0.0,
+  "wilcoxon_p_two_sided": 0.0625,
+  "rank_biserial_effect": -1.0,
+  "min_achievable_two_sided_p_N5": 0.0625,
+  "gap_oor_median": 0.341222094657607,
+  "gap_ir_median": 0.07443804683291239,
+  "gap_ir_all_positive": true
+}

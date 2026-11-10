@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+first_set/datasets/
+second_set/runs/
+*.npz
+.DS_Store

@@ -1,0 +1,87 @@
+{
+  "bike_hour": {
+    "set": "bike_hour",
+    "n": 17379,
+    "n_train": 10427,
+    "n_test": 6952,
+    "F_continuous_used": 4,
+    "Yfeat": {
+      "name": "temp",
+      "abs_spearman_Y": 0.413,
+      "OOR_mm": 0.0003,
+      "OOR_p1p99": 0.019
+    },
+    "OOR_mm_mean": 0.0001,
+    "OOR_mm_maxfeat": 0.0003,
+    "OOR_p1p99_mean": 0.01,
+    "frac_rows_any_oor_mm": 0.0003,
+    "mean_nfeat_oor_mm": 0.0,
+    "top5_oor_features": [
+      {
+        "feat": "temp",
+        "oor_mm": 0.0003,
+        "abs_spearman_Y": 0.413
+      },
+      {
+        "feat": "atemp",
+        "oor_mm": 0.0,
+        "abs_spearman_Y": 0.41
+      },
+      {
+        "feat": "hum",
+        "oor_mm": 0.0,
+        "abs_spearman_Y": 0.319
+      },
+      {
+        "feat": "windspeed",
+        "oor_mm": 0.0,
+        "abs_spearman_Y": 0.124
+      }
+    ]
+  },
+  "air_quality": {
+    "set": "air_quality",
+    "n": 7718,
+    "n_train": 4630,
+    "n_test": 3088,
+    "F_continuous_used": 17,
+    "Yfeat": {
+      "name": "PT08.S2(NMHC)",
+      "abs_spearman_Y": 0.833,
+      "OOR_mm": 0.0019,
+      "OOR_p1p99": 0.0359
+    },
+    "OOR_mm_mean": 0.0323,
+    "OOR_mm_maxfeat": 0.1982,
+    "OOR_p1p99_mean": 0.0982,
+    "frac_rows_any_oor_mm": 0.2759,
+    "mean_nfeat_oor_mm": 0.549,
+    "top5_oor_features": [
+      {
+        "feat": "T_RH",
+        "oor_mm": 0.1982,
+        "abs_spearman_Y": 0.07
+      },
+      {
+        "feat": "T",
+        "oor_mm": 0.194,
+        "abs_spearman_Y": 0.025
+      },
+      {
+        "feat": "AH",
+        "oor_mm": 0.0997,
+        "abs_spearman_Y": 0.042
+      },
+      {
+        "feat": "PT08.S4(NO2)",
+        "oor_mm": 0.0395,
+        "abs_spearman_Y": 0.575
+      },
+      {
+        "feat": "NO2(GT)",
+        "oor_mm": 0.0045,
+        "abs_spearman_Y": 0.788
+      }
+    ]
+  }
+}

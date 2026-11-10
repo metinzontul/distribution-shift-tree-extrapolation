@@ -1,0 +1,229 @@
+{
+  "P1_real": {
+    "magnitude_sev50": {
+      "n": 27,
+      "median": 0.14646892577909987,
+      "mean": 0.20071995673257165,
+      "pct_pos": 77.77777777777779,
+      "pct_neg": 22.22222222222222,
+      "wilcoxon_p": 0.0042315274477005005,
+      "rank_biserial": 0.6137566137566137,
+      "dz": 0.18046955956754748,
+      "exceeds_MDE_noticeable": true,
+      "exceeds_MDE_substantial": true
+    },
+    "severity_trend_rho": {
+      "n": 27,
+      "median": 1.0,
+      "mean": 0.6296296296296297,
+      "pct_pos": 77.77777777777779,
+      "pct_neg": 22.22222222222222,
+      "wilcoxon_p": 0.00024235638467475884,
+      "rank_biserial": 0.7619047619047619,
+      "dz": 0.9096563721749876
+    },
+    "per_severity": {
+      "0": {
+        "n": 27,
+        "median": 0.028986078195011533,
+        "mean": 0.014421992375534645,
+        "pct_pos": 62.96296296296296,
+        "pct_neg": 37.03703703703704,
+        "wilcoxon_p": 0.1775200217962265,
+        "rank_biserial": 0.30158730158730157,
+        "dz": 0.06376616213872002
+      },
+      "15": {
+        "n": 27,
+        "median": 0.06544278020506233,
+        "mean": 0.09257102717506725,
+        "pct_pos": 74.07407407407408,
+        "pct_neg": 25.925925925925924,
+        "wilcoxon_p": 0.022940203547477722,
+        "rank_biserial": 0.4973544973544973,
+        "dz": 0.2771409168530952
+      },
+      "30": {
+        "n": 27,
+        "median": 0.1027392700125549,
+        "mean": 0.15295050465021706,
+        "pct_pos": 74.07407407407408,
+        "pct_neg": 25.925925925925924,
+        "wilcoxon_p": 0.011200115084648132,
+        "rank_biserial": 0.5502645502645502,
+        "dz": 0.3127168257978654
+      },
+      "50": {
+        "n": 27,
+        "median": 0.14646892577909987,
+        "mean": 0.20071995673257165,
+        "pct_pos": 77.77777777777779,
+        "pct_neg": 22.22222222222222,
+        "wilcoxon_p": 0.0042315274477005005,
+        "rank_biserial": 0.6137566137566137,
+        "dz": 0.18046955956754748
+      }
+    },
+    "holm": {
+      "P1ii_severity_trend": [
+        0.00024235638467475884,
+        0.0004847127693495177,
+        true
+      ],
+      "P1i_magnitude_sev50": [
+        0.0042315274477005005,
+        0.0042315274477005005,
+        true
+      ]
+    },
+    "n_datasets": 27,
+    "secondary_catboost_vs_tabpfn_sev50": {
+      "n": 14,
+      "median": 0.27543060874411235,
+      "mean": 0.3789318805133258,
+      "pct_pos": 85.71428571428571,
+      "pct_neg": 14.285714285714285,
+      "wilcoxon_p": 0.0008544921875,
+      "rank_biserial": 0.9238095238095239,
+      "dz": 0.8123230155359135
+    }
+  },
+  "B3_differential": {
+    "gap_extrapolation_sev50": {
+      "n": 27,
+      "median": 0.14646892577909987,
+      "mean": 0.20071995673257165,
+      "pct_pos": 77.77777777777779,
+      "pct_neg": 22.22222222222222,
+      "wilcoxon_p": 0.0042315274477005005,
+      "rank_biserial": 0.6137566137566137,
+      "dz": 0.18046955956754748
+    },
+    "gap_saturation_sev50": {
+      "n": 27,
+      "median": 0.0013232493644208254,
+      "mean": 0.1651874968702817,
+      "pct_pos": 51.85185185185185,
+      "pct_neg": 48.148148148148145,
+      "wilcoxon_p": 0.7857417166233063,
+      "rank_biserial": 0.06349206349206349,
+      "dz": 0.19929850856320874
+    },
+    "differential": {
+      "n": 27,
+      "median": 0.12163176920470575,
+      "mean": 0.03553245986228997,
+      "pct_pos": 62.96296296296296,
+      "pct_neg": 29.629629629629626,
+      "wilcoxon_p": 0.047967299764438115,
+      "rank_biserial": 0.4523076923076923,
+      "dz": 0.04897822718587663
+    },
+    "mannwhitney_p": 0.023427924218057283,
+    "n_paired": 27,
+    "saturation_constructible_count": 27,
+    "gate_pass_ge12": true,
+    "strata_extrapolation_arm": {
+      "n": 27,
+      "extrapolation_stratum": 8,
+      "saturation_stratum": 9,
+      "ambiguous": 10,
+      "undefined": 0,
+      "median_slope_ratio": 0.9067799774692176
+    },
+    "strata_saturation_arm": {
+      "n": 27,
+      "extrapolation_stratum": 0,
+      "saturation_stratum": 25,
+      "ambiguous": 2,
+      "undefined": 0,
+      "median_slope_ratio": -5.740008944642655
+    },
+    "kill_triggered": false
+  },
+  "crossing_map": {
+    "n_datasets": 27,
+    "n_ever_exceed_noticeable": 20,
+    "n_never_positive": 6,
+    "n_rank_reversal": 4,
+    "onset_noticeable_distribution": {
+      "0": 10,
+      "15": 4,
+      "30": 5,
+      "50": 1
+    },
+    "onset_noticeable_median": 7.5,
+    "onset_noticeable_iqr": [
+      0.0,
+      30.0
+    ],
+    "heterogeneity_note": "onsets dataset-specific + NON-TRANSFERABLE (A4); heterogeneity = unexplained variance, future work"
+  },
+  "temporal_A5": {
+    "n_primary_tabred": 4,
+    "n_primary_gbdt_worse_than_ft": 2,
+    "primary_gap_cat_ft": {
+      "cooking-time": -0.004,
+      "delivery-eta": 0.006,
+      "sberbank-housing": 0.004,
+      "weather": -0.012
+    },
+    "median_primary_gap_cat_ft": 0.00023084883137575174,
+    "note": "N=4 primary -> DESCRIPTIVE (not confirmatory). Proxies (air_quality/bike_hour) SECONDARY only."
+  },
+  "descriptive_nemenyi": {
+    "models": [
+      "catboost",
+      "xgboost",
+      "lightgbm",
+      "ft_transformer",
+      "mlp"
+    ],
+    "n_datasets": 27,
+    "friedman_chi2": 9.98518518518523,
+    "friedman_p": 0.040677976376107206,
+    "mean_ranks": {
+      "ft_transformer": 2.333,
+      "mlp": 2.778,
+      "lightgbm": 3.111,
+      "xgboost": 3.148,
+      "catboost": 3.63
+    },
+    "critical_difference": 1.1739442853837592,
+    "note": "EXPLORATORY multi-model ranking (Demsar); NOT the pre-registered confirmatory verdict"
+  },
+  "kill_checks": {
+    "P1_magnitude_below_MDE": {
+      "triggered": false,
+      "detail": "sev50 median gap +0.146 vs MDE_noticeable 0.05"
+    },
+    "P1_direction_fail": {
+      "triggered": false,
+      "detail": "%pos=78, Wilcoxon p=4.23e-03, median=+0.146"
+    },
+    "P1_no_severity_growth": {
+      "triggered": false,
+      "detail": "trend-rho median=+1.00 p=2.42e-04 %pos=78"
+    },
+    "B3_gate_underpowered": {
+      "triggered": false,
+      "detail": "saturation-constructible=27 (need>=12)"
+    },
+    "B3_not_extrapolation_specific": {
+      "triggered": false,
+      "detail": "differential median=+0.122 p=4.80e-02; satur gap median=+0.001"
+    },
+    "map_empty": {
+      "triggered": false,
+      "detail": "20/27 datasets ever exceed noticeable"
+    },
+    "temporal_direction_fail": {
+      "triggered": false,
+      "detail": "GBDT worse in 2/4 TabReD sets"
+    }
+  },
+  "_aux_proxy_vs_gap": {
+    "spearman_rho": -0.019536019536019536,
+    "p": 0.9229505970785762
+  }
+}

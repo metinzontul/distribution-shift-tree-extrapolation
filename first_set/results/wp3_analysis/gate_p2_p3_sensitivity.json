@@ -1,0 +1,71 @@
+{
+  "P2_air_quality_leakage_safe": {
+    "split_feature": "Hour",
+    "abs_spearman": 0.27663912405063895,
+    "sigma_y_ref": 123.00659960667194,
+    "dataset_gap_cat_ft_sev50": -0.039805709310798076,
+    "per_seed": {
+      "n": 15,
+      "median": -0.0023655377991342874,
+      "mean": -0.039805709310798076,
+      "pct_pos": 46.666666666666664,
+      "wilcoxon_p": 0.27685546875
+    },
+    "cat_tabpfn_dataset_gap": 0.17898475951660395,
+    "cat_tabpfn_per_seed": {
+      "n": 15,
+      "median": 0.16307735372018906,
+      "mean": 0.17898475951660395,
+      "pct_pos": 100.0,
+      "wilcoxon_p": 6.103515625e-05
+    },
+    "old_leaky_gap_NO2": 1.0386,
+    "old_leaky_split": "NO2(GT)"
+  },
+  "P3_sensitivity": {
+    "N27": {
+      "n": 27,
+      "median": 0.14646892577909987,
+      "mean": 0.20071995673257165,
+      "pct_pos": 77.77777777777779,
+      "wilcoxon_p": 0.0042315274477005005,
+      "roster": [
+        "Ailerons",
+        "Moneyball",
+        "QSAR_fish_toxicity",
+        "abalone",
+        "airfoil_self_noise",
+        "bike_hour",
+        "california_housing",
+        "concrete_compressive_strength",
+        "cpu_activity",
+        "diamonds",
+        "fifa",
+        "geographical_origin_of_music",
+        "grid_stability",
+        "kin8nm",
+        "kings_county",
+        "miami_housing",
+        "naval_propulsion_plant",
+        "physiochemical_protein",
+        "puma8NH",
+        "pumadyn32nh",
+        "red_wine",
+        "sarcos",
+        "space_ga",
+        "superconductivity",
+        "video_transcoding",
+        "wave_energy",
+        "white_wine"
+      ]
+    },
+    "N28_plus_air_quality": {
+      "n": 28,
+      "median": 0.13719744909667264,
+      "mean": 0.19212975437387986,
+      "pct_pos": 75.0,
+      "wilcoxon_p": 0.0051764026284217834
+    },
+    "N29_plus_fps": "fps compute-excluded, gap not recomputed (944 feat, FT ~40-97min/cell; time-boxed seed0 attempt terminated ~22min mid-fit, no npz)"
+  }
+}

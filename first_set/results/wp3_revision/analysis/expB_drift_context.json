@@ -1,0 +1,13 @@
+{
+  "max_oor_feature": "CPI",
+  "max_oor_fraction": 0.10564474365613671,
+  "target_feature": "Store_33",
+  "target_oor_fraction": 0.0,
+  "label_shift_sigma": -0.0351380502084778,
+  "label_ks": 0.030241373569313612,
+  "label_ks_p": 0.16455479068401302,
+  "concept_ratio": 0.876128351216571,
+  "psi_max": 5.196411723986706,
+  "psi_argmax": "Fuel_Price",
+  "maha_oor": 0.4158467115484205
+}

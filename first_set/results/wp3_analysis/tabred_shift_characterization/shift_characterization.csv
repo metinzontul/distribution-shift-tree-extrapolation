@@ -1,0 +1,6 @@
+dataset,n_test,F_num,OOR_mm_Yfeat,OOR_mm_maxfeat,OOR_mm_mean,OOR_p1p99_mean,PSI_med,SMD_med,Y_SMD,Y_PSI,Y_stdratio,ridge_ood/tr
+sberbank-housing,4647,365,0.0,1.0,0.0917,0.1021,0.049,0.093,0.227,0.134,0.967,3.34
+cooking-time,41648,186,0.0,0.0,0.0,0.013,0.006,0.051,0.1,0.01,1.015,1.05
+weather,40840,96,0.0,0.001,0.0,0.031,0.067,0.14,0.135,0.017,0.991,0.98
+delivery-eta,36927,217,0.0,0.001,0.0,0.0179,0.005,0.023,0.093,0.009,1.003,1.03
+"CONSTRUCT sev50 (median, n=27)",-,-,1.0,1.0,0.1561,0.2256,1.099,-,-,-,-,-
