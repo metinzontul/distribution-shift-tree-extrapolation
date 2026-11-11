@@ -41,6 +41,7 @@ All tables can be recomputed from the CSV files in this repository; no model nee
 pip install numpy pandas scipy statsmodels
 python analysis/first_set_stats.py    # Table 4 CIs, Holm, mixed model, ID comparison, TOST
 python analysis/second_set_stats.py   # Table 3 (ID column), Table 5, normaliser checks
+python analysis/supplementary_tables.py  # Supplementary Tables S1-S3 (writes analysis/supplementary/)
 python first_set/results/wp3_analysis/make_pub_figures.py      # Figures 1, 3, 4, 5
 python first_set/results/wp3_analysis/size_vs_gap_analysis.py  # Figure 2
 ```
