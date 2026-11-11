@@ -1,6 +1,6 @@
 # When Does the Extrapolation Weakness of Gradient-Boosted Trees Matter?
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24110546.svg)](https://doi.org/10.5281/zenodo.24110546)
+[![DOI](https://zenodo.org/badge/1452411079.svg)](https://doi.org/10.5281/zenodo.24110545)
 
 Code and results for the paper
 
@@ -73,7 +73,7 @@ OpenML-CTR23 (suite 353), puma8NH (OpenML 225), Ailerons (OpenML 296), bike shar
 
 ## Citation
 
-See `CITATION.cff`. The code and results of version 1.0 are archived on Zenodo: https://doi.org/10.5281/zenodo.24110546.
+See `CITATION.cff`. All released versions are archived on Zenodo: https://doi.org/10.5281/zenodo.24110545 (always resolves to the latest version).
 
 ## License
 
